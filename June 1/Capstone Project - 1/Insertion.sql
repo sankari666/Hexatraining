@@ -1,1 +1,97 @@
+use retail_capstone_db;
+INSERT INTO customers VALUES
+(1,'Rahul Sharma','Hyderabad','Telangana','Male','Gold'),
+(2,'Priya Reddy','Hyderabad','Telangana','Female','Silver'),
+(3,'Amit Kumar','Chennai','Tamil Nadu','Male','Gold'),
+(4,'Sneha Patel','Mumbai','Maharashtra','Female','Bronze'),
+(5,'Arjun Verma','Delhi','Delhi','Male','Silver'),
+(6,'Neha Singh','Bangalore','Karnataka','Female','Gold'),
+(7,'Farhan Ali','Pune','Maharashtra','Male','Silver'),
+(8,'Meera Nair','Chennai','Tamil Nadu','Female','Gold'),
+(9,'Kiran Rao','Hyderabad','Telangana','Male','Bronze'),
+(10,'Divya Sharma','Mumbai','Maharashtra','Female','Silver');
 
+INSERT INTO products VALUES
+(101,'iPhone 15','Electronics',75000),
+(102,'Samsung TV','Electronics',45000),
+(103,'Laptop Bag','Fashion',1200),
+(104,'Running Shoes','Fashion',3500),
+(105,'Dining Table','Furniture',15000),
+(106,'Office Chair','Furniture',8000),
+(107,'Bluetooth Speaker','Electronics',2500),
+(108,'Smart Watch','Electronics',5000),
+(109,'T-Shirt','Fashion',800),
+(110,'Headphones','Electronics',3000);
+
+INSERT INTO orders VALUES
+(1001,1,'2026-01-05','Delivered'),
+(1002,2,'2026-01-10','Delivered'),
+(1003,3,'2026-01-15','Pending'),
+(1004,4,'2026-01-20','Cancelled'),
+(1005,5,'2026-01-22','Delivered'),
+(1006,6,'2026-01-25','Pending'),
+(1007,7,'2026-02-01','Delivered'),
+(1008,8,'2026-02-05','Delivered'),
+(1009,1,'2026-02-08','Delivered'),
+(1010,2,'2026-02-10','Pending'),
+(1011,3,'2026-02-12','Delivered'),
+(1012,4,'2026-02-15','Cancelled'),
+(1013,5,'2026-02-18','Delivered'),
+(1014,6,'2026-02-20','Pending'),
+(1015,7,'2026-02-25','Delivered');
+
+INSERT INTO order_items VALUES
+(1,1001,101,1),
+(2,1001,103,2),
+(3,1002,102,1),
+(4,1003,104,2),
+(5,1004,109,3),
+(6,1005,105,1),
+(7,1006,107,2),
+(8,1007,108,1),
+(9,1008,110,2),
+(10,1009,103,1),
+(11,1010,104,1),
+(12,1011,101,1),
+(13,1012,109,2),
+(14,1013,106,1),
+(15,1014,107,1),
+(16,1015,110,1),
+(17,1002,109,2),
+(18,1005,108,1),
+(19,1008,103,2),
+(20,1011,104,1);
+
+INSERT INTO payments VALUES
+(501,1001,'UPI','Success',77400),
+(502,1002,'Card','Success',46600),
+(503,1003,'UPI','Pending',7000),
+(504,1004,'Cash','Failed',2400),
+(505,1005,'Card','Success',20000),
+(506,1006,'UPI','Pending',5000),
+(507,1007,'UPI','Success',5000),
+(508,1008,'Card','Success',7200),
+(509,1009,'UPI','Success',1200),
+(510,1010,'Cash','Pending',3500),
+(511,1011,'Card','Success',78500),
+(512,1012,'UPI','Failed',1600),
+(513,1013,'Card','Success',8000),
+(514,1014,'UPI','Pending',2500),
+(515,1015,'Card','Success',3000);
+
+INSERT INTO deliveries VALUES
+(701,1001,'Delhivery','Delivered','Hyderabad'),
+(702,1002,'BlueDart','Delivered','Hyderabad'),
+(703,1003,'Ecom Express','Pending','Chennai'),
+(704,1004,'Delhivery','Cancelled','Mumbai'),
+(705,1005,'BlueDart','Delivered','Delhi'),
+(706,1006,'Ecom Express','Pending','Bangalore'),
+(707,1007,'Delhivery','Delivered','Pune'),
+(708,1008,'BlueDart','Delivered','Chennai'),
+(709,1009,'Delhivery','Delivered','Hyderabad'),
+(710,1010,'Ecom Express','Pending','Hyderabad'),
+(711,1011,'BlueDart','Delivered','Chennai'),
+(712,1012,'Delhivery','Cancelled','Mumbai'),
+(713,1013,'BlueDart','Delivered','Delhi'),
+(714,1014,'Ecom Express','Pending','Bangalore'),
+(715,1015,'Delhivery','Delivered','Pune');
