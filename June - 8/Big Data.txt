@@ -1,0 +1,38 @@
+1.	What is Big Data and what is pyspark?
+    Big Data refers to datasets so massive, fast-moving, or complex that traditional processing tools 
+(like a single SQL database or a standard Excel sheet) cannot store or analyze them efficiently. 
+It is defined by three core characteristics:
+•	Volume
+•	Velocity
+•	Variety
+•	Veracity
+    PySpark is the Python API for Apache Spark, a powerful engine designed to process massive datasets. 
+Because standard Python data tools (like pandas) crash when memory is exceeded, PySpark distributes tasks across multiple computers (a cluster). 
+This allows Python developers to process huge amounts of data in parallel, scale machine learning models, and handle real-time streaming
+
+2.Spark’s Basic Architecture
+           Apache Spark uses a master-slave architecture consisting of a single central coordinator 
+called the Driver and multiple distributed workers called Executors, all managed by a centralized Cluster Manager. 
+This structure allows Spark to process massive datasets in parallel across thousands of physical or virtual machines. 
+
+3. Cluster manager, Spark Session, Spark Context, Driver Node, Work Node
+•	Driver Node - Physical/Virtual Hardware. The master machine hosting the orchestrating program.
+•	Work Node - Physical/Virtual Hardware. The slave machines hosting the execution processes.
+•	Cluster Manager - External Service / Software. Allocates CPU and memory resources across the infrastructure.
+•	Spark Session - Software Context (Modern). Unified code-level entry point for Data Frames and SQL.
+•	Spark Context - Software Context (Legacy Core). Low-level code-level entry point for RDDs and resource connections.
+
+4. 4.	What is Client and cluster mode?
+
+Client and Cluster modes define where the Spark Driver runs when you submit an application. 
+In Client mode, the driver runs on your local machine. In Cluster mode, the driver runs inside the cluster itself on one of the worker nodes
+•	Use Client Mode if you are actively writing code in a Jupyter Notebook, running a REPL, or debugging. 
+It provides instant, real-time feedback and makes tracing errors straightforward. 
+•	Use Cluster Mode for production. It is highly reliable because the entire application runs autonomously on the cluster, 
+meaning your job won't crash if your local laptop or client machine loses its internet connection or gets shut down
+
+
+
+
+
+
