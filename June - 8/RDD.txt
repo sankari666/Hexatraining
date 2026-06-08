@@ -1,0 +1,20 @@
+1. What is RDD?
+An RDD (Resilient Distributed Dataset) is the fundamental, core data structure of Apache Spark. 
+It is an immutable, fault-tolerant collection of data partitioned across a cluster, allowing for highly efficient, parallel processing.
+
+2.Advantage of RDD
+Resilient Distributed Datasets (RDDs) are Apache Spark's core data structures. 
+Their primary advantages include unmatched control for unstructured data and fault-tolerant, in-memory processing
+•	Unstructured Data Support
+•	Low-Level Control
+•	In-Memory Computation
+•	Lineage-Based Fault Tolerance
+•	Custom Partitioning
+•	Immutability & Lazy Evaluation
+
+3.Lazy Evaluation
+Lazy evaluation in Apache Spark means that Spark does not execute data transformations immediately when you write them. 
+Instead, it records these operations in a logical plan and defers the actual computation until you explicitly call an action.
+
+
+
