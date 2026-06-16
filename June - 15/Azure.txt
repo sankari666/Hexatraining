@@ -1,0 +1,49 @@
+1.	What is Cloud Computing?
+Cloud computing is the on-demand delivery of computing services—including servers, storage, databases, networking, and software—over the internet. 
+Instead of owning and maintaining physical data centers, you rent access to these resources from providers like Amazon Web Services (AWS), 
+Microsoft Azure, or Google Cloud, paying only for what you use.
+
+2.	Advantages of Microsoft azure
+Microsoft Azure is a comprehensive, industry-leading cloud computing platform. Its primary advantages include unparalleled scalability 
+to meet dynamic workloads, robust built-in security and compliance certifications, cost-efficiency through pay-as-you-go pricing, 
+and seamless integration with existing on-premises systems and Microsoft enterprise ecosystems
+
+3.	What is hosting in azure
+Hosting in Azure refers to running your websites, applications, databases, and backend infrastructure on Microsoft Azure, 
+a global cloud computing platform. Instead of buying physical servers, you rent virtual computing resources on demand, benefiting 
+from enterprise-grade security, instant scalability, and pay-as-you-go pricing.
+
+4.	What is IaaS,Paas,Saas
+IaaS, PaaS, and SaaS are the three primary service models of cloud computing. They represent different layers of technology stacks 
+delivered as a service over the internet, scaling from raw hardware to ready-to-use applications.
+
+5.	What is Azure Databricks?
+Azure Databricks is a cloud-based, unified analytics platform co-engineered by Microsoft and the creators of Apache Spark. 
+It is designed to process and analyze massive volumes of data, and to build enterprise-grade artificial intelligence (AI) and machine learning (ML) solutions
+
+6.	Advantage of azure databricks
+Azure Databricks is a unified, cloud-based platform that brings together data engineering, analytics, and AI. Key advantages include seamless 
+Microsoft Azure ecosystem integration, massively scalable serverless compute, collaborative workspaces, and built-in advanced data security and governance
+•	Unified workspace and collaboration
+•	Native azure integration
+•	Exceptional performance and scaling
+•	AIML readiness
+•	Robust data governance
+
+7.	What is workspace?
+A workspace in Microsoft Azure is the foundational top-level resource used to organize, manage, and collaborate on specialized projects. 
+Depending on the service you are using, it acts as a centralized hub or folder that groups together assets, security settings, computing resources, and logs
+
+8.	What is EDA?
+In data science and statistics, EDA is the process of analyzing datasets to summarize their main characteristics. Instead of jumping straight 
+into machine learning, analysts use this phase to understand the data's structure, spot anomalies, and uncover hidden patterns
+
+
+
+
+
+
+
+
+
+
