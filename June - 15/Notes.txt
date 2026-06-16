@@ -1,0 +1,23 @@
+Scalable & Elastic
+ 
+TaxSmile -- IT Returns Portal -- On Prem Solution -- 2 Servers -- Feb -- In Apr Increase in Traffic
+Load Testing and Stress Testing -- 3 More Servers  -- 5 Months
+ 
+1. Get Approvals from the Stake Holders -- CEO, CTO, Directors
+ 
+2. Procure / Buy the Servers -- Germany -- 2 weeks
+ 
+3. Retrofit the Servers in Server Room -- Network Eng -- 24/7 -- 3 Teams + 1 Team
+ 
+4. Power Supply
+ 
+5. Rent for the Server Room
+ 
+*********************************************************************
+ 
+TaxSmile -- IT Returns Portal -- Azure Cloud Solution
+ 
+Text Box -- 5 -- Save -- 2 mins -- 5 Server Cluster
+ 
+Increasing the servers -- Scaling -- Elastic
+
