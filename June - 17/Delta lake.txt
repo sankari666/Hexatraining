@@ -1,0 +1,30 @@
+1.What is Databricks delta lake?
+
+Delta Lake is an open-source storage layer that sits on top of your cloud object storage. 
+Developed by Databricks, it transforms standard data lakes into a high-performance Lakehouse by providing 
+ACID transactions, data versioning, and scalable metadata management
+ 
+2.Database vs Datawarehouse vs data lake vs delta lake
+These four data systems serve distinctly different purposes: 
+•	Databases power live applications.
+•	Data Warehouses power Business Intelligence (BI) and reporting.
+•	Data Lakes store massive, raw, or unstructured data cheaply.
+•	Delta Lakes add transactional reliability to data lakes.
+=> Database
+•	Primary Purpose: Transactional processing (OLTP) to support day-to-day operations and applications.
+•	Data Type: Highly structured and optimized for rapid lookups and writes.
+•	Best For: Front-end applications, CRM systems, and e-commerce transactions.
+=> Data Warehouse
+•	Primary Purpose: Analytics, reporting, and Business Intelligence (BI).
+•	Data Type: Structured and pre-defined. Data undergoes ETL (Extract, Transform, Load) before entering the warehouse.
+•	Best For: Executing complex, historical queries and generating executive dashboards.
+•	Drawbacks: Expensive to scale and struggles to handle unstructured data (like video, audio, or log files). 
+=> Data Lake
+•	Primary Purpose: Massively scalable, low-cost storage for raw, unstructured, or semi-structured data.
+•	Data Type: Everything goes in "as is." Schemas are applied only when the data is read.
+•	Best For: Machine Learning (ML), artificial intelligence, and deep data science workloads.
+•	Drawbacks: Can become unorganized ("data swamps") and lacks ACID transaction support (which can cause data corruption during simultaneous reads and writes). 
+=> Delta Lake
+•	Primary Purpose: An open-source storage layer that sits on top of a Data Lake (often called a "Data Lakehouse").
+•	Data Type: Combines the scalability of a Data Lake with the reliability and transactional guarantees of a Data Warehouse.
+•	Best For: Unifying both batch and streaming data in one place, allowing for ACID transactions and time-travel querying on massive datasets
