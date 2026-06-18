@@ -1,0 +1,32 @@
+1.	overview of data governance and unity catalog
+
+Data governance is the framework of policies, processes, and controls that ensures an organization's data is secure, accurate, and trustworthy. Unity Catalog is the centralized, fine-grained governance solution built for the Databricks Data Intelligence Platform.
+Key features of unity catalog:
+•	Centralized Metastore
+•	Fine-Grained Access Control
+•	Data Lineage
+•	Data Discoverability
+•	Secure Collaboration
+
+2.	overview of 3 level namespace and creating unity catalog object
+
+The Unity Catalog 3-level namespace organizes data and AI assets using a strict hierarchy of catalog.schema.object. This structure enables unified data governance, fine-grained access control, and easy asset segregation across different environments or business units
+Every securable data asset inside Databricks sits within this hierarchy underneath a top-level regional Metastore.
+Level 1: Catalog (catalog)
+o	The primary unit of data organization.
+o	Typically used to separate Software Development Lifecycle (SDLC) environments (e.g., dev, staging, prod) or specific business units (e.g., marketing, finance). 
+o	Level 2: Schema / Database (schema)
+o	The second layer of organization inside a catalog.
+o	Commonly called a "database" in traditional SQL setups.
+o	Typically groups data assets by a single project, use case, or team sandbox. 
+o	Level 3: Object (object)
+o	The actual physical or logical data asset.
+o	This includes structured data (Tables and Views), unstructured data (Volumes), reusable logic (Functions), and registered AI models (Models). 
+
+3.	create unity catalog metastore and enable a databricks workspace with unity catalog
+To create a Unity Catalog metastore and enable a Databricks workspace with it, you must log in as a Databricks Account Admin to the Account Console, create the regional metastore, and assign your workspace to that metastore
+Step 1: Set Up Cloud Storage
+Step 2: Create the Unity Catalog Metastore
+Step 3: Enable Your Workspace for Unity Catalog
+Step 4: Validate and Set Up Compute 
+
