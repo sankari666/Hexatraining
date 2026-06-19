@@ -1,0 +1,22 @@
+[
+ {
+  "passenger_name":"Rahul Sharma",
+  "meal":"Veg",
+  "seat":"Window"
+ },
+ {
+  "passenger_name":"Priya Reddy",
+  "meal":"Non-Veg",
+  "seat":"Aisle"
+ },
+ {
+  "passenger_name":"Amit Kumar",
+  "meal":"Veg",
+  "seat":"Middle"
+ },
+ {
+  "passenger_name":"Sneha Patel",
+  "meal":"Veg",
+  "seat":"Window"
+ }
+]
