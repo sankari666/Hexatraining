@@ -1,0 +1,43 @@
+1.	What is Devops?
+
+DevOps is a cultural philosophy and set of technical practices that unifies software development (Dev) and IT operations (Ops). 
+It breaks down traditional silos to automate and accelerate the software delivery lifecycle, enabling teams to release applications 
+and updates faster, more reliably, and with higher quality.
+
+2.	Advantages of devops
+
+DevOps bridges software development and IT operations to accelerate delivery, reduce costs, and improve software quality through 
+continuous automation, rapid feedback loops, and cross-team collaboration.
+•	Faster time to delivery
+•	Rapid feedback loop
+•	Rapid recovery
+•	Enhanced collaboration
+•	Shared ownership
+•	Increased innovation
+
+3.	What is agile methodology and what is scrum?
+
+Agile is a broad project management philosophy that emphasizes flexibility, iterative progress, and continuous collaboration. 
+Scrum is one specific framework used to implement Agile principles, breaking work down into structured, time-boxed cycles called 
+"sprints" to deliver incremental value.
+
+4.	Importance of meetings in agile
+
+Meetings in Agile (often called ceremonies) drive continuous collaboration, alignment, and adaptability. They ensure teams deliver 
+iterative value, resolve blockers quickly, and consistently adapt the product to changing client needs.
+
+5.	Advantages of agile
+Agile is an iterative project management approach that breaks work into smaller, manageable increments. Its core advantages 
+include faster time-to-market, high adaptability to change, continuous customer involvement, and superior product quality through ongoing testing and feedback.
+•  Adaptability & Flexibility: Teams can easily pivot and adjust priorities based on real-time market conditions 
+or late-stage user feedback without disrupting the entire project. 
+•  Faster Delivery: By breaking projects into short, focused cycles (sprints), valuable features are released continuously
+rather than waiting for a massive final launch
+•  Enhanced Customer Satisfaction: Clients and end-users are actively involved throughout the development lifecycle,
+ensuring the end result directly aligns with their needs
+•  Improved Product Quality: Built-in quality assurance, automated testing, and frequent iterations mean defects are caught 
+and resolved early, ensuring a highly polished final product.
+•  Reduced Risk: Frequent reviews and continuous assessment of progress allow teams to spot potential obstacles and mitigate them before they escalate
+
+
+
