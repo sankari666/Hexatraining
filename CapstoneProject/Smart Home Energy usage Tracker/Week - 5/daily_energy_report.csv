@@ -1,0 +1,9 @@
+date,device_id,device_name,Daily_Usage_kWh,Alert
+2026-06-01,101,AC Unit,8.5,Normal
+2026-06-01,102,Server Rack,25.5,High Usage
+2026-06-01,103,LED Lights,4.0,Normal
+2026-06-01,104,Projector,12.2,High Usage
+2026-06-02,101,AC Unit,9.2,Normal
+2026-06-02,102,Server Rack,24.8,High Usage
+2026-06-02,103,LED Lights,3.5,Normal
+2026-06-02,104,Projector,6.8,Normal
