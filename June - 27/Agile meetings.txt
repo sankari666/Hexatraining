@@ -1,0 +1,12 @@
+1.	What is Sprint planning meeting?
+Sprint planning is a collaborative Agile event where the team determines the highest-priority work 
+to be completed in the upcoming cycle (usually 2–4 weeks). Guided by a single overarching Sprint Goal, 
+the team forecasts the specific backlog items they can realistically deliver based on their capacity
+
+2.	What is retrospective meeting?
+An Agile retrospective (or "retro") is a recurring meeting held at the end of an iteration (typically a 2-to-4 week "sprint"). 
+Its purpose is to help the team reflect on their recent work, identify processes or dynamics to improve, and agree on actionable changes for the next cycle.
+
+3.	What is daily standup meeting?
+A daily stand-up (or Daily Scrum) is a quick, 15-minute daily sync for agile teams. 
+Its goal is to align on sprint progress, coordinate tasks for the next 24 hours, and flag any roadblocks—not to act as a lengthy status report
