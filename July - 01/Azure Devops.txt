@@ -1,0 +1,40 @@
+1.	What is CICD?
+CI/CD stands for Continuous Integration and Continuous Delivery (or Deployment). It is a set of automated software development 
+practices that allow teams to build, test, and release code quickly and reliably. 
+The CI/CD framework typically operates in a pipeline, which automates the entire software lifecycle from development to production
+•	Continuous Integration (CI): Developers frequently merge code changes into a central repository. Every merge automatically triggers
+a series of builds and tests to ensure the new code does not break existing features.
+•	Continuous Delivery (CD): Code that passes all automated tests is automatically prepped for release, though pushing it to production 
+usually requires a manual approval step.
+•	Continuous Deployment (CD): An extension of continuous delivery where every change that passes the automated tests is automatically 
+deployed straight to production with zero manual intervention
+
+ 
+2.	Advantages of CICD Pipelines
+CI/CD (Continuous Integration and Continuous Deployment) pipelines automate building, testing, and releasing software. Their primary
+advantages are faster time-to-market, significantly reduced human error, earlier bug detection, and seamless team collaboration, which 
+together maximize overall developer productivity. 
+The key benefits of implementing CI/CD pipelines include:
+•	Faster Time-to-Market: Automation enables rapid, incremental software delivery, allowing new features and fixes to reach 
+users in days, hours, or even minutes.
+•	Early Bug Detection: Automated tests run with every code commit, catching integration issues early when they are small 
+and inexpensive to fix. 
+•	Reduced Human Error: By replacing manual builds and deployments with standardized, automated scripts, the release process 
+becomes highly consistent and predictable. 
+•	Easier Rollbacks: If a flawed update reaches production, robust pipelines allow teams to easily and instantly revert to a 
+previous, stable version of the software. 
+•	Improved Collaboration: Frequent code integration prevents "integration hell," keeping the codebase stable while fostering 
+better visibility and communication among developers.
+•	Enhanced Productivity: Developers spend less time on tedious manual deployment and bug-triage, allowing them to focus entirely 
+on writing code and solving business problems
+
+3.	Give some notes from Azure Devops Perspective
+Azure DevOps is an integrated suite of development tools and services designed to cover the complete software lifecycle. It unifies 
+development and operations teams (DevOps) through five core pillars, bridging people, process, and technology. 
+The 5 Core Components
+•	Azure Boards: An Agile project management tool for planning, tracking, and visualizing work using Kanban boards, backlogs, and dashboards.
+•	Azure Repos: Provides cloud-hosted, private Git repositories for version control and collaborative code reviews.
+•	Azure Pipelines: A language- and cloud-agnostic CI/CD platform for automating builds, testing, and deployments.
+•	Azure Test Plans: Integrated testing solution that supports manual, exploratory, and automated testing.
+•	Azure Artifacts: Integrated package management to host and share Maven, npm, Python, and NuGet packages.
+ 
