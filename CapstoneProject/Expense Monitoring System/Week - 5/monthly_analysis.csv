@@ -1,7 +1,0 @@
-User_ID,Month,Monthly_Spend,Savings,Alert
-101,2026-06,1200,18800,Normal
-101,2026-07,12000,8000,Medium Spending
-102,2026-06,1000,19000,Normal
-102,2026-07,900,19100,Normal
-103,2026-06,400,19600,Normal
-104,2026-07,21500,-1500,High Spending
